@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Dataset - DO NOT COMMIT
+dataset/
+
+# Generated outputs
+output/
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.bin
+models/*.pt
+models/*.onnx
+
+# Experiment/cache files
+*.cache
+*.tmp
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
